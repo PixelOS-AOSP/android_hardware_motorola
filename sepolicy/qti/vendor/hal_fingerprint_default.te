@@ -32,3 +32,5 @@ hal_client_domain(hal_fingerprint_default, hal_health)
 
 get_prop(hal_fingerprint_default, build_bootimage_prop)
 set_prop(hal_fingerprint_default, vendor_mot_fingerprint_prop)
+
+hal_client_domain(hal_fingerprint_default, hal_power)
